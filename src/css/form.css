@@ -20,7 +20,6 @@ form label {
 
 form input[type='email'],
 form textarea {
-  width: 100%;
   padding: 8px 16px;
   box-sizing: border-box;
   margin-bottom: 8px;
@@ -46,6 +45,7 @@ form textarea:focus {
 form textarea {
   overflow: hidden;
   resize: none;
+  height: 80px;
 }
 
 form button {
