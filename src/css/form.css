@@ -43,6 +43,11 @@ form textarea:focus {
   outline: none;
 }
 
+form textarea {
+  overflow: hidden;
+  resize: none; /* Отключаем изменение размера textarea */
+}
+
 form button {
   display: block;
   width: 100%;
