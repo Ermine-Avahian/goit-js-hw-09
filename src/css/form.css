@@ -1,0 +1,65 @@
+form {
+  background-color: #ffffff;
+  padding: 20px; /* Внутренние отступы */
+  border-radius: 10px; /* Скругленные углы */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Тень */
+  max-width: 300px; /* Максимальная ширина формы */
+  margin: auto; /* Выравнивание по центру */
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+form input[type='email'],
+form textarea {
+  width: 100%;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  transition: border-color 0.3s;
+}
+
+form input[type='email']:focus,
+form textarea:focus {
+  border-color: #808080;
+  outline: none;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #6c8cff;
+}
