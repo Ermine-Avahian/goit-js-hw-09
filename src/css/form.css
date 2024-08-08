@@ -1,10 +1,10 @@
 form {
   background-color: #ffffff;
-  padding: 20px; /* Внутренние отступы */
-  border-radius: 10px; /* Скругленные углы */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Тень */
-  max-width: 300px; /* Максимальная ширина формы */
-  margin: auto; /* Выравнивание по центру */
+  margin: auto;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
 }
 
 form label {
@@ -45,7 +45,7 @@ form textarea:focus {
 
 form textarea {
   overflow: hidden;
-  resize: none; /* Отключаем изменение размера textarea */
+  resize: none;
 }
 
 form button {
